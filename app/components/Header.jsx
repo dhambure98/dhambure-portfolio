@@ -19,15 +19,15 @@ const Header = () => {
             whileInView={{y: 0, opacity: 1}}
             transition={{duration: 0.6, delay: 0.3}}
             >
-                Hi! I'm Supun Gunawardhana <Image src={assets.hand_icon} alt='' className='w-6' />
+                Hi! I'm Akila Dhambure Liyanage <Image src={assets.hand_icon} alt='' className='w-6' />
             </motion.h3>
 
-            <motion.h1 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'
+            <motion.h1 className='text-3xl sm:text-6xl lg:text-[65px] font-Ovo'
             initial={{y: -30, opacity: 0}}
             whileInView={{y: 0, opacity: 1}}
             transition={{duration: 0.8, delay: 0.5}}
             >
-                full stack developer
+                Developer | Designer
             </motion.h1>
 
             <motion.p
@@ -35,7 +35,7 @@ const Header = () => {
             whileInView={{opacity: 1}}
             transition={{duration: 0.6, delay: 0.7}}
             >
-                I’m a full stack developer from SriLanka with half a decade of experience, working on both web and mobile full stack projects. I specialize in creating responsive websites and intuitive mobile interfaces.
+                I’m a developer and designer from Sri Lanka, working on both web and mobile projects. I specialize in creating responsive websites and interfaces, with a strong focus on quality assurance and automation testing. 
             </motion.p>
             
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
@@ -47,7 +47,7 @@ const Header = () => {
                     contact me 
                     <Image src={assets.right_arrow_white} alt='' className='w-4' />
                 </motion.a>
-                <motion.a href="/SupunGunawardhanaCv.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'
+                <motion.a href="/AkilaDhambureCv.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'
                 initial={{y: 30, opacity: 0}}
                 whileInView={{y: 0, opacity: 1}}
                 transition={{duration: 0.6, delay: 1.2}}
