@@ -77,7 +77,7 @@ const About = ({ isDarkMode }) => {
           transition={{ duration: 0.6, delay: 0.8 }}
           >
           <p className='mb-10 max-w-2xl font-Ovo'>
-            Passionate Full Stack Developer with experience in developing web and mobile applications. Proficient in modern JavaScript frameworks, UI/UX principles, and responsive design. Enthusiastic about creating user-friendly interfaces and enhancing user experiences through clean, efficient code. Strong problem-solving skills with a keen interest in continuous learning and innovation.
+            Passionate QA Engineer and UI/UX Enthusiast with experience in ensuring the quality and usability of web and mobile applications. Skilled in test automation, user interface evaluation, and responsive design principles. Dedicated to enhancing user experiences through meticulous testing and intuitive design practices. Strong analytical and problem-solving skills with a commitment to continuous learning and innovation in the areas of quality engineering and user-centered design.
           </p>
 
           <motion.div className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'
@@ -90,7 +90,7 @@ const About = ({ isDarkMode }) => {
               whileInView={{ opacity: 1.05 }}>
               <Image src={isDarkMode ? assets.code_icon_dark : assets.code_icon} alt='Languages' className='w-7 mt-3' />
               <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>Languages</h3>
-              <p className='text-gray-600 text-sm dark:text-white/80'>HTML, CSS, JavaScript, React.js, Next.js</p>
+              <p className='text-gray-600 text-sm dark:text-white/80'>HTML, CSS, JavaScript, React.js, Next.js, Java</p>
             </motion.div>
 
             <motion.div className='border-[0.5px] border-gray-400 rounded-xl p-5 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-lg dark:border-white dark:hover:bg-darkHover/50'
@@ -98,7 +98,7 @@ const About = ({ isDarkMode }) => {
               whileInView={{ opacity: 1.05 }}>
               <Image src={isDarkMode ? assets.edu_icon_dark : assets.edu_icon} alt='Education' className='w-7 mt-3' />
               <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>Education</h3>
-              <p className='text-gray-600 text-sm dark:text-white/80'>B.Tech in Computer Science</p>
+              <p className='text-gray-600 text-sm dark:text-white/80'>B.Hon in Software Enginnerung</p>
             </motion.div>
 
             <motion.a href="#projects" className='border-[0.5px] border-gray-400 rounded-xl p-5 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-lg dark:border-white dark:hover:bg-darkHover/50'
@@ -141,17 +141,34 @@ const About = ({ isDarkMode }) => {
 
             <h3 className='text-lg font-semibold text-gray-700 dark:text-white'>Frontend:</h3>
             <ul className='list-disc pl-5 text-gray-600 dark:text-white/80'>
-              <li>HTML, CSS, JavaScript, TypeScript, SCSS, Tailwind CSS, Bootstrap</li>
+              <li>HTML5, CSS3, JavaScript (ES6+), TypeScript</li>
+              <li>Responsive Design & Cross-Browser Compatibility</li>
             </ul>
 
             <h3 className='text-lg font-semibold text-gray-700 dark:text-white'>Frameworks & Libraries:</h3>
             <ul className='list-disc pl-5 text-gray-600 dark:text-white/80'>
-              <li>React.js, Next.js, Flutter</li>
+              <li>React.js, Tailwind CSS, Bootstrap</li>
+              <li>Material UI, React Hook Form, Axios</li>
             </ul>
 
             <h3 className='text-lg font-semibold text-gray-700 dark:text-white'>State Management:</h3>
             <ul className='list-disc pl-5 text-gray-600 dark:text-white/80'>
-              <li>Redux</li>
+              <li>Redux Toolkit, Context API, Zustand</li>
+            </ul>
+
+            <h3 className='text-lg font-semibold text-gray-700 dark:text-white'>Quality Assurance:</h3>
+            <ul className='list-disc pl-5 text-gray-600 dark:text-white/80'>
+              <li>Manual Testing (Test Case Writing, Bug Reporting)</li>
+              <li>Automation: Selenium, Cypress, TestNG</li>
+              <li>API Testing: Postman, Swagger</li>
+              <li>Test Management Tools: Jira, TestRail</li>
+            </ul>
+
+            <h3 className='text-lg font-semibold text-gray-700 dark:text-white'>UI/UX Design Tools:</h3>
+            <ul className='list-disc pl-5 text-gray-600 dark:text-white/80'>
+              <li>Figma, Adobe XD</li>
+              <li>Wireframing & Prototyping with FigJam</li>
+              <li>User-Centered Design Principles</li>
             </ul>
 
             <h3 className='text-lg font-semibold text-gray-700 dark:text-white'>Version Control:</h3>
@@ -161,17 +178,20 @@ const About = ({ isDarkMode }) => {
 
             <h3 className='text-lg font-semibold text-gray-700 dark:text-white'>Backend Basics:</h3>
             <ul className='list-disc pl-5 text-gray-600 dark:text-white/80'>
-              <li>Node.js, Express.js, Firebase, REST APIs</li>
+              <li>Spring Boot, Node.js (basics)</li>
+              <li>RESTful APIs (Request/Response, Status Codes)</li>
             </ul>
 
             <h3 className='text-lg font-semibold text-gray-700 dark:text-white'>Databases:</h3>
             <ul className='list-disc pl-5 text-gray-600 dark:text-white/80'>
-              <li>MongoDB, Firebase</li>
+              <li>MySQL, MongoDB, Firebase</li>
             </ul>
 
             <h3 className='text-lg font-semibold text-gray-700 dark:text-white'>Tools & Platforms:</h3>
             <ul className='list-disc pl-5 text-gray-600 dark:text-white/80'>
-              <li>VS Code, Figma, Postman, Swagger, NPM/Yarn</li>
+              <li>Visual Studio Code, Postman, Chrome DevTools</li>
+              <li>Jira, Trello, Notion</li>
+              <li>GitHub Actions (basic CI/CD knowledge)</li>
             </ul>
           </div>
         </div>
