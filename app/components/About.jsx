@@ -208,14 +208,14 @@ const About = ({ isDarkMode }) => {
 
             <h3 className='text-lg font-semibold text-gray-700 dark:text-white'>Acadamic:</h3>
             <ul className='list-disc pl-5 text-gray-600 dark:text-white/80'>
-              <li>Bachelor of Software Engineering Honours Undergraduate</li>
+              <li>Bachelor of Software Engineering (Honours) Undergraduate</li>
               <p>- Open University of Sri Lanka</p>
 
               <li>General Certificate of Education (Advanced Level)</li>
-              <p>- St.Aloysius College Ratnapura</p>
+              <p>- Richmond College, Galle</p>
 
               <li>General Certificate of Education (Ordinary Level)</li>
-              <p>- St.Aloysius College Ratnapura</p>
+              <p>- Richmond College, Galle</p>
             </ul>
 
             <h3 className='text-lg font-semibold text-gray-700 dark:text-white'>Certifications:</h3>

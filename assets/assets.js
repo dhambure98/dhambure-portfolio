@@ -11,7 +11,8 @@ import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
 import postman from './postman.png';
-import swagger from './swagger.png';
+import jira from './jira.png';
+import selenium from './selenium.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
@@ -35,6 +36,8 @@ import web_icon from './web-icon.png';
 import mobile_icon from './mobile-icon.png';
 import ui_icon from './ui-icon.png';
 import graphics_icon from './graphics-icon.png';
+import profomance_icon from './profomance_icon.png';
+import software_icon from './software_icon.png';
 import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
@@ -53,7 +56,8 @@ export const assets = {
     figma,
     git,
     postman,
-    swagger,
+    jira,
+    selenium,
     mongodb,
     right_arrow_white,
     logo,
@@ -78,6 +82,8 @@ export const assets = {
     mobile_icon,
     ui_icon,
     graphics_icon,
+    profomance_icon,
+    software_icon,
     right_arrow,
     send_icon,
     right_arrow_bold,
@@ -267,13 +273,13 @@ export const workData = [
 export const serviceData = [
       {
         icon: assets.web_icon,
-        title: "Web design",
-        fullDesc: "Web design is the art and science of creating visually appealing, user-friendly websites that function smoothly across different devices. It involves layout design, color schemes, typography, and interactive elements to ensure a seamless user experience."
+        title: "Web Development",
+        fullDesc: "Web development focuses on building functional, high-performing websites and web apps. It includes both front-end and back-end development using technologies like HTML, CSS, JavaScript, React, Node.js, and more."
       },
       {
-        icon: assets.mobile_icon,
-        title: "Mobile app",
-        fullDesc: "Mobile app development focuses on designing and building applications for iOS and Android platforms. This involves UI/UX design, backend integration, and performance optimization to deliver a seamless mobile experience for users."
+        icon: assets.profomance_icon,
+        title: "Software Testing",
+        fullDesc: "Software testing ensures applications are bug-free and meet requirements. It involves manual and automated testing to verify functionality, usability, and stability before release."
       },
       {
         icon: assets.ui_icon,
@@ -283,6 +289,11 @@ export const serviceData = [
       {
         icon: assets.graphics_icon,
         title: "Graphics design",
+        fullDesc: "Graphic design involves creating visually engaging content for branding, marketing, and advertising. This includes logo creation, typography, illustration, and multimedia design to communicate ideas effectively."
+      },
+      {
+        icon: assets.software_icon,
+        title: "Performance Testing",
         fullDesc: "Graphic design involves creating visually engaging content for branding, marketing, and advertising. This includes logo creation, typography, illustration, and multimedia design to communicate ideas effectively."
       }
 ]
@@ -294,5 +305,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.postman, assets.swagger
+    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.postman, assets.jira, assets.selenium
 ];
