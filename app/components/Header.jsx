@@ -27,7 +27,7 @@ const Header = () => {
             whileInView={{y: 0, opacity: 1}}
             transition={{duration: 0.8, delay: 0.5}}
             >
-                QA Engineer | Designer
+                full stack developer
             </motion.h1>
 
             <motion.p
@@ -35,7 +35,7 @@ const Header = () => {
             whileInView={{opacity: 1}}
             transition={{duration: 0.6, delay: 0.7}}
             >
-                I’m a QA engineer and designer from Sri Lanka, specializing in quality assurance and automation testing, as well as creating responsive and user-friendly designs for web and mobile projects.
+                I’m a full stack developer from SriLanka with half a decade of experience, working on web and design full stack projects. I specialize in creating responsive websites and quality assurance automation testing as well as creating responsive and user-friendly designs
             </motion.p>
             
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>

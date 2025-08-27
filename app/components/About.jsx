@@ -85,7 +85,7 @@ const About = ({ isDarkMode }) => {
           transition={{ duration: 0.6, delay: 0.8 }}
           >
           <p className='mb-10 max-w-2xl font-Ovo'>
-            Passionate QA Engineer and UI/UX Enthusiast with experience in ensuring the quality and usability of web and mobile applications. Skilled in test automation, user interface evaluation, and responsive design principles. Dedicated to enhancing user experiences through meticulous testing and intuitive design practices. Strong analytical and problem-solving skills with a commitment to continuous learning and innovation in the areas of quality engineering and user-centered design.
+            Passionate  Full Stack Developer and UI/UX Enthusiast with experience in ensuring the quality and usability of web and mobile applications. Skilled in test automation, user interface evaluation, and responsive design principles. Denthusiastic about creating user-friendly interfaces and enhancing user experiences through clean, efficient code. Strong problem-solving skills with a keen interest in continuous learning and innovation..
           </p>
 
           <motion.div className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'
